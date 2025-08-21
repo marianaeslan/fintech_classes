@@ -167,8 +167,7 @@ Contribuições são sempre bem-vindas! Sinta-se livre para:
 - [ ] **v1.1** - Sistema de metas e orçamentos
 - [ ] **v1.2** - Interface gráfica
 - [ ] **v1.3** - Integração com banco de dados
-- [ ] **v1.4** - API REST
-- [ ] **v2.0** - Aplicação web completa
+
 
 ## 👨‍💻 Autor
 
