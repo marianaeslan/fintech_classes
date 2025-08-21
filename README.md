@@ -78,8 +78,8 @@ src/
 
 1. **Clone o repositório**
    ```bash
-   git clone https://github.com/seu-usuario/sistema-financeiro.git
-   cd sistema-financeiro
+   git clone https://github.com/seu-usuario/sistema_financeiro.git
+   cd sistema_financeiro
    ```
 
 2. **Compile o projeto**
