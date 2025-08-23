@@ -27,7 +27,6 @@ public class Conta {
 
     public void creditarTransacao(double valorTransacao) {
         this.saldo += valorTransacao;
-        System.out.println("Novo saldo: R$" + String.format("%.2f", saldo));
     }
 
     public String getNomeConta() {

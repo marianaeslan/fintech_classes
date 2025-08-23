@@ -1,12 +1,12 @@
 public class Transacao {
-    private int id;
-    private double valor;
-    private Conta conta;
-    private String descricao;
-    private Categoria categoria;
-    private boolean recorrencia;
+    protected int id;
+    protected double valor;
+    protected Conta conta;
+    protected String descricao;
+    protected Categoria categoria;
+    protected boolean recorrencia;
 
-    public Transacao(double valor, Conta conta, String descricao, Categoria categoria,  boolean recorrencia) {
+    public Transacao(double valor, Conta conta, String descricao, Categoria categoria, boolean recorrencia) {
         this.id = Id.gerarId();
         this.valor = valor;
         this.conta = conta;

@@ -104,14 +104,14 @@ src/
 
 ```java
 // Compras do supermercado
-Transacao compras = new Transacao(150.00, contaNubank, 
-                                         "Compras mensais", 
-                                         categoryAlimentacao);
+Transacao compras = new Transacao(150.00, contaNubank,
+                "Compras mensais",
+                categoryAlimentacao);
 
 // Pagamento de conta
-Transacao contaLuz = new Transacao(120.00, contaItau, 
-                                          "Conta de luz", 
-                                          categoryContas);
+Transacao contaLuz = new Transacao(120.00, contaItau,
+        "Conta de luz",
+        categoryContas);
 ```
 
 ## 📈 Exemplo de Saída do Sistema
