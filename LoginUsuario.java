@@ -17,6 +17,13 @@ public class LoginUsuario {
     }
 
     public boolean autenticar(String usuario, String senha) {
-        return this.usuario.equals(usuario) && this.senha.equals(senha);
+        if (this.usuario.equals(usuario) && this.senha.equals(senha)){
+            System.out.println("=============== ✅ Acesso Permitido ✅ =================");
+            return true;
+        } else {
+            System.out.println("=============== ❌ Acesso Negado ❌ =================");
+            return false;
+        }
+
     }
 }

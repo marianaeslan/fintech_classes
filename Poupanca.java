@@ -2,9 +2,8 @@ public class Poupanca {
     private double valor;
     private double saldoPoupanca;
     private String descricao;
-    public Poupanca(double valor, double saldo, String descricao) {
+    public Poupanca(double valor, String descricao) {
         this.valor = valor;
-        this.saldoPoupanca = saldoPoupanca;
         this.descricao = descricao;
     }
     public double getValor() {
@@ -25,10 +24,10 @@ public class Poupanca {
     public void setDescricao(String descricao) {
         this.descricao = descricao;
     }
-    public void addSaldo(double saldo, double valor) {
+    public void addSaldo(double valor) {
         saldoPoupanca += valor;
     }
-    public void subSaldo(double saldo, double valor) {
+    public void subSaldo(double valor) {
         saldoPoupanca -= valor;
     }
 }
