@@ -5,7 +5,7 @@ public class TransacaoCredito extends Transacao {
         super(valor, conta, descricao, categoria, recorrencia);
     }
 
-    public void executarTransacaoCredito() {
+    public void executarTransacao() {
         getConta().creditarTransacao(getValor());
     }
 

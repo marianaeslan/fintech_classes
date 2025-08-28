@@ -1,6 +1,8 @@
 public class Main {
     public static void main(String[] args) {
 
+        // Classes teste
+
         // Criação das categorias
         Categoria lazer = new Categoria("Lazer");
         Categoria alimentacao = new Categoria("Alimentacao");
@@ -62,13 +64,12 @@ public class Main {
         System.out.println("---------------------------------------------------------------------------------------");
 
         // Executa a transação (credito em conta)
-        transacaoCred.executarTransacaoCredito();
+        transacaoCred.executarTransacao();
         System.out.println("💸 Valor creditado: R$" + String.format("%.2f", transacaoCred.getValor()));
         System.out.println("💸 Saldo final Itaú: R$" + String.format("%.2f", contaItau.getSaldo()));
         System.out.println("---------------------------------------------------------------------------------------");
 
         // Adicionando Valor na Poupanca
-
         Poupanca poupanca = new Poupanca(150.00, "caixinha do mês");
         Poupanca poupanca2 = new Poupanca(200.00, "caixinha do mês");
         poupanca.addSaldo(poupanca.getValor());
